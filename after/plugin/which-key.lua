@@ -33,10 +33,9 @@ wk.setup {
   },
 }
 
+
 local merge_tb = vim.tbl_deep_extend
 local keymaps = require 'config.keymaps'
-
-keymaps.lspconfig = nil
 
 for _, section_keymaps in pairs(keymaps) do
   for mode, mode_keymaps in pairs(section_keymaps) do
@@ -53,4 +52,5 @@ for _, section_keymaps in pairs(keymaps) do
     end
   end
 end
+
 

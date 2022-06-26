@@ -9,6 +9,8 @@ g.mapleader = ','
 
 -- Theme variant. Available: [dark|dimmed|dark_default|dark_colorblind|light|light_default|light_colorblind]
 g.theme_variant = 'light'
+opt.termguicolors = true
+
 
 -- Line numbers
 opt.number = true
@@ -23,8 +25,9 @@ opt.mouse = 'a'
 opt.title = true
 
 
--- Set scrolling lines offset
+-- Set scrolling offset
 opt.scrolloff = 10
+opt.sidescrolloff = 10
 
 -- Set vertical ruller
 opt.colorcolumn = '80'
